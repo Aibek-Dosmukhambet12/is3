@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости нашей группы</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>ИС 3 курс РО</h1>
+                    <span class="tagline">Новости нашей группы информационных систем</span>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#home" class="active">Главная</a></li>
+                        <li><a href="#news">Новости</a></li>
+                        <li><a href="#events">События</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#students">Студенты</a></li>
+                        <li><a href="#schedule">Расписание</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-background">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="IT Students" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Добро пожаловать в группу ИС 3 курс РО!</h2>
+                <p>Следите за новостями, достижениями и событиями нашей дружной группы информационных систем третьего курса</p>
+                <a href="#news" class="cta-button">Читать новости</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-news" id="news">
+        <div class="container">
+            <h2 class="section-title">Главные новости</h2>
+            <div class="news-grid">
+                <article class="news-card featured">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Важное объявление для группы">
+                        <div class="news-category">Важное</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Важное объявление для группы ИС 3 курс РО</h3>
+                        <p>Дорогие одногрупники! Напоминаем о предстоящих экзаменах и важных датах семестра. Будьте внимательны к расписанию!</p>
+                        <div class="news-meta">
+                            <span class="author"><i class="fas fa-user"></i> Увалиева Анеля (Староста)</span>
+                            <span class="date"><i class="fas fa-calendar"></i> 15 декабря 2024</span>
+                        </div>
+                        <a href="#" class="read-more">Читать далее</a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Программирование">
+                        <div class="news-category">События</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Успехи в программировании</h3>
+                        <p>Несколько наших студентов показали отличные результаты на олимпиаде по программированию!</p>
+                        <div class="news-meta">
+                            <span class="date"><i class="fas fa-calendar"></i> 14 декабря 2024</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Защита проектов">
+                        <div class="news-category">Достижения</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Защита проектов</h3>
+                        <p>Готовимся к защите курсовых работ по базам данных и веб-разработке.</p>
+                        <div class="news-meta">
+                            <span class="date"><i class="fas fa-calendar"></i> 13 декабря 2024</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Встреча с выпускниками">
+                        <div class="news-category">Объявления</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Встреча с выпускниками</h3>
+                        <p>Приглашаем всех на встречу с бывшими студентами нашей специальности.</p>
+                        <div class="news-meta">
+                            <span class="date"><i class="fas fa-calendar"></i> 12 декабря 2024</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="events" id="events">
+        <div class="container">
+            <h2 class="section-title">Предстоящие события</h2>
+            <div class="events-list">
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">20</span>
+                        <span class="month">Дек</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Экзамен по программированию</h3>
+                        <p>Итоговый экзамен по курсу "Алгоритмы и структуры данных"</p>
+                        <span class="event-time"><i class="fas fa-clock"></i> 09:00</span>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">25</span>
+                        <span class="month">Дек</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Защита курсовых работ</h3>
+                        <p>Презентация и защита курсовых проектов по базам данных</p>
+                        <span class="event-time"><i class="fas fa-clock"></i> 10:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Галерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Студенты в аудитории">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Компьютерный класс">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1523240798030-6b0b0c8c9f8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Групповая работа">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Студенты за работой">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="IT технологии">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Студенческая жизнь">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Students Section -->
+    <section class="students" id="students">
+        <div class="container">
+            <h2 class="section-title">Наши студенты</h2>
+            <div class="students-grid">
+                <div class="student-card">
+                    <div class="student-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Безрукова Дарья</h3>
+                    <p>Студентка группы ИС 3 курс РО</p>
+                </div>
+                <div class="student-card">
+                    <div class="student-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Суров Сергей</h3>
+                    <p>Студент группы ИС 3 курс РО</p>
+                </div>
+                <div class="student-card">
+                    <div class="student-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Досмухамбет Айбек</h3>
+                    <p>Студент группы ИС 3 курс РО</p>
+                </div>
+                <div class="student-card">
+                    <div class="student-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Тлеужанов Тимур</h3>
+                    <p>Студент группы ИС 3 курс РО</p>
+                </div>
+                <div class="student-card">
+                    <div class="student-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Чабдарбаев Данияр</h3>
+                    <p>Студент группы ИС 3 курс РО</p>
+                </div>
+                <div class="student-card">
+                    <div class="student-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Каратай Аманали</h3>
+                    <p>Студент группы ИС 3 курс РО</p>
+                </div>
+                <div class="student-card">
+                    <div class="student-avatar">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Капин Джангир</h3>
+                    <p>Заместитель старосты группы ИС 3 курс РО</p>
+                </div>
+                <div class="student-card">
+                    <div class="student-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Федюкова Карина</h3>
+                    <p>Студентка группы ИС 3 курс РО</p>
+                </div>
+                <div class="student-card">
+                    <div class="student-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Халилова Сабина</h3>
+                    <p>Студентка группы ИС 3 курс РО</p>
+                </div>
+                <div class="student-card">
+                    <div class="student-avatar">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Увалиева Анеля</h3>
+                    <p>Староста группы ИС 3 курс РО</p>
+                </div>
+                <div class="student-card">
+                    <div class="student-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Абдыхаев Олжас</h3>
+                    <p>Студент группы ИС 3 курс РО</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule" id="schedule">
+        <div class="container">
+            <h2 class="section-title">Расписание занятий</h2>
+            <div class="schedule-container">
+                <div class="schedule-info">
+                    <p>Актуальное расписание для группы ИС 3 курс РО</p>
+                    <p><strong>Семестр:</strong> Осенний 2025-2026</p>
+                    <p><strong>Группа:</strong> Б-СО-О-Р-ИС-2221</p>
+                    <p><strong>Специальность:</strong> 6B06101 - Информационные системы</p>
+                </div>
+                
+                <div class="schedule-notes">
+                    <h3>Важная информация:</h3>
+                    <div class="notes-grid">
+                        <div class="note-item">
+                            <i class="fas fa-laptop"></i>
+                            <span>Онлайн занятия: <a href="https://online.almau.edu.kz/" target="_blank">online.almau.edu.kz</a></span>
+                        </div>
+                        <div class="note-item">
+                            <i class="fas fa-video"></i>
+                            <span>Microsoft Teams для некоторых занятий (ссылки в расписании)</span>
+                        </div>
+                        <div class="note-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Аудитории: 202, 222, 302, 307, 311, 312, 315, 318, 320, 322, 331, 409, 430 (Атриум), а402, а501, а503</span>
+                        </div>
+                        <div class="note-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Minor 3: Ваш выбор специализации (у каждого студента свой Minor)</span>
+                        </div>
+                        <div class="note-item">
+                            <i class="fas fa-list"></i>
+                            <span>Доступные Minor: Управление проектами, SMM, Public Relations, Product Design, Events Management, Бухгалтер, Логистика и др.</span>
+                        </div>
+                        <div class="note-item">
+                            <i class="fas fa-gamepad"></i>
+                            <span>IT-специализация: Unity 3D, GameDev, ИТ-стартап Capstone Project</span>
+                        </div>
+                        <div class="note-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Бизнес-дисциплины: Экономика, Менеджмент, Маркетинг, Предпринимательство</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="schedule-table-wrapper">
+                    <table class="schedule-table">
+                        <thead>
+                            <tr>
+                                <th>Время</th>
+                                <th>Понедельник</th>
+                                <th>Вторник</th>
+                                <th>Среда</th>
+                                <th>Четверг</th>
+                                <th>Пятница</th>
+                                <th>Суббота</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="time">08:00-08:50</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject lecture">Экономика<br><small>Болуспаев Ш.А.</small><br><small><a href="https://online.almau.edu.kz/" target="_blank">онлайн</a></small></td>
+                                <td class="subject">-</td>
+                                <td class="subject lab">Проект GameDev<br><small>Урманов М.</small><br><small><a href="https://teams.microsoft.com/l/team/19%3Am00rRWpy6D4-H3Kkbay7gdTc69J2eWm-kx2tWdBI53A1%40thread.tacv2/conversations?groupId=69297a01-ef6e-4ea0-b3de-df99308ed146&tenantId=d09fb5ee-0155-43c1-8afb-b5f150a30f77" target="_blank">Ms Teams</a></small></td>
+                            </tr>
+                            <tr>
+                                <td class="time">09:00-09:50</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject lecture">Менеджмент<br><small>Шалбаева Ш.Е.</small><br><small><a href="https://online.almau.edu.kz/" target="_blank">онлайн</a></small></td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject lab">Продвинутый Unity 3D<br><small>Урманов М.</small><br><small><a href="https://teams.microsoft.com/l/team/19%3ahfNml9WLYOKSlFCyOLJOzbE0FjkeN0-ntAwo8Y4TSjo1%40thread.tacv2/conversations?groupId=7b018992-2e17-4d2a-9afe-54d161dbc083&tenantId=d09fb5ee-0155-43c1-8afb-b5f150a30f77" target="_blank">Ms Teams</a></small></td>
+                            </tr>
+                            <tr>
+                                <td class="time">10:00-10:50</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject lecture">Маркетинг<br><small>Йолджу С.А.</small><br><small><a href="https://online.almau.edu.kz/" target="_blank">онлайн</a></small></td>
+                                <td class="subject">-</td>
+                                <td class="subject lab">Продвинутый Unity 3D<br><small>Урманов М.</small><br><small><a href="https://teams.microsoft.com/l/team/19%3ahfNml9WLYOKSlFCyOLJOzbE0FjkeN0-ntAwo8Y4TSjo1%40thread.tacv2/conversations?groupId=7b018992-2e17-4d2a-9afe-54d161dbc083&tenantId=d09fb5ee-0155-43c1-8afb-b5f150a30f77" target="_blank">ауд. 311</a></small></td>
+                                <td class="subject">-</td>
+                            </tr>
+                            <tr>
+                                <td class="time">11:10-12:00</td>
+                                <td class="subject">-</td>
+                                <td class="subject lecture">Менеджмент<br><small>Шалбаева Ш.Е.</small><br><small>ауд. 331</small></td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                            </tr>
+                            <tr>
+                                <td class="time">12:10-13:00</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject seminar">ИТ-стартап Capstone Project 1<br><small>Кумарбеков Д.</small><br><small>ауд. 202</small></td>
+                            </tr>
+                            <tr>
+                                <td class="time">13:10-14:00</td>
+                                <td class="subject seminar">ИТ-стартап Capstone Project 1<br><small>Кумарбеков Д.</small><br><small><a href="https://teams.microsoft.com/l/team/19%3ALtBesV8NZ6pOGkQ7XMD6s16gLukIuro_fUD1qV-kYWE1%40thread.tacv2/conversations?groupId=eefdcae7-f756-4b3a-96c3-eca676dc046e&tenantId=d09fb5ee-0155-43c1-8afb-b5f150a30f77" target="_blank">Ms Teams</a></small></td>
+                                <td class="subject lecture">Minor 3 - Ваш выбор<br><small>Различные преподаватели</small><br><small>разные аудитории</small></td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject lecture">Экономика<br><small>Болуспаев Ш.А.</small><br><small>ауд. 430</small></td>
+                                <td class="subject seminar">ИТ-стартап Capstone Project 1<br><small>Кумарбеков Д.</small><br><small>ауд. 202</small></td>
+                            </tr>
+                            <tr>
+                                <td class="time">14:20-15:10</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject lecture">Minor 3 - Ваш выбор<br><small>Различные преподаватели</small><br><small>разные аудитории</small></td>
+                            </tr>
+                            <tr>
+                                <td class="time">15:20-16:10</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject lab">Проект GameDev<br><small>Урманов М.</small><br><small>ауд. 322</small></td>
+                                <td class="subject">-</td>
+                            </tr>
+                            <tr>
+                                <td class="time">16:20-17:10</td>
+                                <td class="subject practice">Предпринимательство в действии 2<br><small>Тұрсынбекұлы Д.</small><br><small>ауд. 331</small></td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject lecture">Minor 3 - Ваш выбор<br><small>Различные преподаватели</small><br><small>разные аудитории</small></td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                            </tr>
+                            <tr>
+                                <td class="time">17:20-18:10</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                            </tr>
+                            <tr>
+                                <td class="time">18:20-19:10</td>
+                                <td class="subject lecture">Маркетинг<br><small>Сохатская Н.П.</small><br><small>ауд. 312</small></td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                                <td class="subject">-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="quick-links">
+                    <h3>Быстрые ссылки:</h3>
+                    <div class="links-grid">
+                        <a href="https://online.almau.edu.kz/" target="_blank" class="quick-link">
+                            <i class="fas fa-laptop"></i>
+                            <span>Онлайн платформа</span>
+                        </a>
+                        <a href="https://teams.microsoft.com/l/team/19%3ALtBesV8NZ6pOGkQ7XMD6s16gLukIuro_fUD1qV-kYWE1%40thread.tacv2/conversations?groupId=eefdcae7-f756-4b3a-96c3-eca676dc046e&tenantId=d09fb5ee-0155-43c1-8afb-b5f150a30f77" target="_blank" class="quick-link">
+                            <i class="fas fa-video"></i>
+                            <span>ИТ-стартап Teams</span>
+                        </a>
+                        <a href="https://teams.microsoft.com/l/team/19%3ahfNml9WLYOKSlFCyOLJOzbE0FjkeN0-ntAwo8Y4TSjo1%40thread.tacv2/conversations?groupId=7b018992-2e17-4d2a-9afe-54d161dbc083&tenantId=d09fb5ee-0155-43c1-8afb-b5f150a30f77" target="_blank" class="quick-link">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Unity 3D Teams</span>
+                        </a>
+                        <a href="https://teams.microsoft.com/l/team/19%3am00rRWpy6D4-H3Kkbay7gdTc69J2eWm-kx2tWdBI53A1%40thread.tacv2/conversations?groupId=69297a01-ef6e-4ea0-b3de-df99308ed146&tenantId=d09fb5ee-0155-43c1-8afb-b5f150a30f77" target="_blank" class="quick-link">
+                            <i class="fas fa-code"></i>
+                            <span>GameDev Teams</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="schedule-legend">
+                    <h3>Условные обозначения:</h3>
+                    <div class="legend-items">
+                        <div class="legend-item">
+                            <span class="legend-color lecture"></span>
+                            <span>Лекция</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color lab"></span>
+                            <span>Лабораторная</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color practice"></span>
+                            <span>Практика</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color seminar"></span>
+                            <span>Семинар</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">О нашей группе</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Мы - дружная группа студентов специальности "Информационные системы" третьего курса. Наша группа объединяет 11 талантливых студентов, которые активно изучают программирование, базы данных, веб-разработку и другие IT-дисциплины. Здесь вы можете найти информацию о наших достижениях, событиях и новостях.</p>
+                    
+                    <div class="leadership">
+                        <h3>Руководство группы:</h3>
+                        <div class="leadership-cards">
+                            <div class="leadership-card">
+                                <i class="fas fa-crown"></i>
+                                <h4>Увалиева Анеля</h4>
+                                <p>Староста группы</p>
+                            </div>
+                            <div class="leadership-card">
+                                <i class="fas fa-star"></i>
+                                <h4>Капин Джангир</h4>
+                                <p>Заместитель старосты</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">11</span>
+                            <span class="stat-label">Студентов</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Курс</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">ИС</span>
+                            <span class="stat-label">Специальность</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ИС 3 курс РО</h3>
+                    <p>Новости группы информационных систем</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#news">Новости</a></li>
+                        <li><a href="#events">События</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#students">Студенты</a></li>
+                        <li><a href="#schedule">Расписание</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> group@example.com</p>
+                    <p><i class="fas fa-phone"></i> +7 (xxx) xxx-xx-xx</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ИС 3 курс РО. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+</html>
